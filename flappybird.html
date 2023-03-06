@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="flappybird.css">
+    <script src="flappybird.js" charset="utf-8"></script>
+    <!-- <script src="https://kit.fontawesome.com/56942480bb.js" crossorigin="anonymous"></script> -->
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="game-container">
+            <div class="sky">
+                <div id="count">
+                    <div id="timer"><span id="step">3</span> s</div>
+                </div>
+                <div id="bird">
+                    <img id="image" src="g-unscreen.gif" alt="">
+                </div>
+            </div>
+            <div class="ground-container">
+                <div id="ground-moving"></div>
+            </div>
+            <audio id = "countdown_sound" src="./countdown.wav"></audio>
+            <audio id = "jump_sound" src="./jump.wav"></audio>
+            <audio id = "lose_sound" src="./lose1.wav"></audio>
+            <!-- <audio id = "bg_sound" src="./bgsound.mp3"></audio> -->
+
+        </div>
+        <div class="menu">
+            <a href="flappybird.html"><button class="menu_btn flappybird">FLAPPY BIRD</button></a><br>
+            <a href="example.html"><button class="menu_btn jumping">JUMPING</button></a>
+            <a href="MineGame.html"><button class="menu_btn minegame">MINE GAME</button></a>
+            <a href="4inRow.html"><button class="menu_btn calculation">CALCULATION</button></a>
+            <img src = "flowerfrog.png" class= "decor flowerfrog">
+        </div>
+        <div id="score">Score</div>
+        <div class="border_top"></div>
+        <div class="border_left"></div>
+
+
+        <div id="gameover">
+            <div id="gameover_box">
+                <div id="gameOverscore">vfs</div>
+                <button class="playagain" onclick="playAgain()">PlayAgain</button>
+            </div>
+            <img src = "octopus.png" class= "decor octopus">
+        </div>
+        <img src = "flowerbear.png" class= "decor flowerbear">
+        <img src = "sun.png" class= "decor sun">
+
+
+    </div>
+
+</body>
+
+</html>

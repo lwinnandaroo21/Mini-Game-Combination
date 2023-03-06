@@ -1,0 +1,230 @@
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* width: 1300px; */
+    /* width: 100vh; */
+    height: 760px; 
+}
+
+.container{
+    width:1100px;
+    height: 750px;
+    background-color:#C7AFE3;
+    display:inline-flex;
+    position: relative;
+    left: 50px;
+    border-radius: 10px;
+	box-shadow: #C7AFE3 6px 3px 0px 11px;
+}
+.border-top{
+    width:1100px;
+    height: 30px;
+    background-color:#C7AFE3;
+    position: absolute;
+    top:-10px;
+    left: 0px;
+    border-radius: 10px;
+}
+.border-left{
+    width:50px;
+    height: 760px;
+    background-color:#C7AFE3;
+    position: absolute;
+    top:-10px;
+    left: 0px;
+    border-radius: 10px;
+}
+.menu{
+    width: 200px;
+    height: 710px;
+    top: 20px;
+    background-color:#F4C9D0;
+    left: 880px;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: #f4b4bf 6px 3px 0px 5px;
+	border: #e0f558 4px dashed;
+}
+.menu_btn{
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    font-family: Arial;
+	color: #FFFFFF;
+	font-size: 16px;
+	border-radius: 15px;
+	border: 3px #c2a100 solid;
+	padding: 16px 33px;
+    background: linear-gradient(180deg, #FAD104 9%, #FAD104 100%);
+
+	text-shadow: 1px 1px 1px #528ecc;
+	box-shadow: inset 4px -6px 0px 0px #90c2f0;
+	cursor: pointer;
+    position: absolute;
+    top:50px;
+    left: 10px;
+}
+
+.menu_btn:hover{
+    background: linear-gradient(180deg, #c0a0e5 9%,#c0a0e5 100%);  
+}
+
+.jumping{
+    top:150px;
+}
+.minegame{
+    top:250px;
+}
+.calculation{
+    top:350px;
+}
+#game-container {
+    width: 800px;
+    height: 730px;
+    background-color: #abf3f1b6;
+    ;
+    left:50px; 
+    position: absolute;
+    /* background-size: cover; */ 
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #f2639a;
+    font-weight: 1000;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    text-shadow: 0px 2px #2e2f3695;
+    position: absolute;
+    left:250px;
+}
+
+.tb{
+    margin: auto;
+    border: 2px solid #fbfefe;
+    width: 600px;
+    height: 600px;
+    background-color: #72f0ec;
+    border-radius: 5px;
+    position: absolute;
+    top:100px;
+    left: 100px;
+}
+
+.cell{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.c{
+    background-color: #857845;
+}
+.flowerbear{
+    width: 80px;
+    position: absolute;
+    top: 3px;
+    left: 10px;
+}
+/* .flowerfrog{
+    width: 150px;
+    position: absolute;
+    bottom: 45px;
+    right: -150px;
+} */
+.sun{
+    width: 60px;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+}
+.flowerfrog{
+    width: 150px;
+    position: absolute;
+    bottom: -15px;
+    left:30px;
+}
+
+/* #game-container {
+    width: 800px;
+    height: 730px;
+    position: relative;
+    background-size: cover;
+}
+
+#gameover {
+    width: 800px;
+    height: 700px;    
+    position: absolute;
+    left:50px; 
+    top:18px;
+    background-color:rgba(0, 0, 255, 0.53);
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#gameover_box{
+    width: 300px;
+    height: 300px;
+    background-color:rgba(128, 128, 128, 0.735);
+    box-shadow: rgba(18, 18, 251, 0.813) 0px -20px 2px 37px;
+    border-radius: 13px;
+    display: none;
+    position: relative;
+}
+#gameOverscore{
+    text-align: center;
+    margin-top:40px;
+    font-size: 30px;
+    color: #f6b79b;
+    font-family: Arial Black, Gadget, sans-serif;
+    text-shadow: 0px 0px 0 rgb(207, 144, 116),
+        -1px 1px 0 rgb(169, 106, 78),
+        -2px 2px 0 rgb(130, 67, 39),
+        -3px 3px 0 rgb(91, 28, 0),
+        -4px 4px 3px rgba(99, 30, 0, 0.54),
+        -4px 4px 1px rgba(99, 30, 0, 0.5),
+        0px 0px 3px rgba(99, 30, 0, .2);
+
+}
+.playagain{
+    text-align: center;
+    font-size: 21px;
+    color: #f6b79b;
+    font-family: Arial Black, Gadget, sans-serif;
+    text-shadow: 0px 0px 0 rgb(207, 144, 116),
+        -1px 1px 0 rgb(169, 106, 78),
+        -2px 2px 0 rgb(130, 67, 39),
+        -3px 3px 0 rgb(91, 28, 0),
+        -4px 4px 3px rgba(99, 30, 0, 0.54),
+        -4px 4px 1px rgba(99, 30, 0, 0.5),
+        0px 0px 3px rgba(99, 30, 0, .2);
+    border-radius: 15px;
+    border: 2px #3777de solid;
+    padding: 11px 18px;
+    background: linear-gradient(180deg, #3777de  5%, #2c78f3  100%);
+    box-shadow: inset 8px -9px 2px -3px #223cb1;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    position: absolute;
+    top: 190px;
+    left: 70px;
+}
+
+.playagain:hover{
+    background: linear-gradient(180deg, #672af4 5%, #4060fe 100%);
+}
+
+.octopus{
+    width: 80px;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+} */
